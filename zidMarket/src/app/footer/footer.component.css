@@ -1,0 +1,64 @@
+.footer{
+  background-color: #7a508f;
+  padding: 50px;
+}
+.img_footer{
+  display: block;
+    width: 150px;
+    margin: 0 auto;
+}
+.socials{
+  text-align: center;
+  margin: 30px;
+}
+.socials a i{
+  color: #fff;
+  padding: 20px;
+  font-size: 20px;
+}
+.icon_msg{
+    background-color: rgb(255, 208, 76);
+    width: 50px;
+    padding: 10px 8px;
+    border-radius: 50%;
+    float: right;
+    position: relative;
+    bottom: 1.2em;
+}
+
+.btn-top {
+  background: rgb(255, 208, 76);
+  position: fixed;
+  bottom: 1.2em;
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin: 0;
+  padding: 0 1.2em;
+  border: none;
+  border-radius: 50%;
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 44px;
+}
+
+.arrow {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 18px;
+      height: 18px;
+      margin-left: -9px;
+      margin-top: -5px;
+      cursor: pointer;
+    }
+
+.up:hover polyline,
+.up:focus polyline {
+stroke-width: 15;
+}
+
+.up:active polyline {
+stroke-width: 15;
+transition: all 100ms ease-in-out;
+}

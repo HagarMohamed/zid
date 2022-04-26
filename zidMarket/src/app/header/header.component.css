@@ -1,0 +1,20 @@
+.logo{
+  text-align: right;
+}
+.logo img{
+  width: 100px;
+  margin-right: 200px;
+}
+nav{
+  direction: rtl;
+}
+
+.nav-item{
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: bold;
+}
+.nav-item a:hover{
+  color: gold;
+}
+
